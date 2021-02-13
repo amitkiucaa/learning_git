@@ -14,6 +14,13 @@ git config --global user.name "yourname"            # repository only
  
 git commint -m "your commit message"               #commit messages are usedually red as : this commit is to "your commit message" 
 
+
+
+git branch amit                #will create a new branch amit
+git checkout amit              #will switch to amit  
+                                #amit has all teh files which master branch has but resverse will not hold true if you add any file after switching to amit.
+                                
+
 git remote add origin <url>      #first crate a reapository on github(using browser) copythe url of repository and paste
                                  #if remote origin already exists then remove that origin by commad  $git remote rm origin
                                  #please mind origin is just a name you could use anotehr name(like peg_git)
@@ -22,10 +29,7 @@ git push origin master           #will push origin to master branch or remote se
                                  #or git push peg_git master
                                  
 
-git branch amit                #will create a new branch amit
-git checkout amit              #will switch to amit  
-                                #amit has all teh files which master branch has but resverse will not hold true if you add any file after switching to amit.
-                                
+
                                 
 
 

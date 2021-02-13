@@ -25,8 +25,16 @@ git remote add origin <url>      #first crate a reapository on github(using brow
                                  #if remote origin already exists then remove that origin by commad  $git remote rm origin
                                  #please mind origin is just a name you could use anotehr name(like peg_git)
 
-git push origin master           #will push origin to master branch or remote server 
-                                 #or git push peg_git master
+git push origin master           #will push origin to master branch or remote server    #or git push peg_git master
+git push origin branch1          #will push local branc <branch1> to remote server
+                                 check can we push branch without checking out
+ 
+git pull origin master           #will pull  master branch or remote server    #or git push peg_git master
+git pull origin branch1          #will pull local branc <branch1> to remote server on local dierctory
+
+git pull --all                  #pull all repositories of server  then checkout any of them
+
+                                 
                                  
 
 

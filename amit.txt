@@ -21,3 +21,11 @@ git remote add origin <url>      #first crate a reapository on github(using brow
 git push origin master           #will push origin to master branch or remote server 
                                  #or git push peg_git master
                                  
+
+git branch amit                #will create a new branch amit
+git checkout amit              #will switch to amit  
+                                #amit has all teh files which master branch has but resverse will not hold true if you add any file after switching to amit.
+                                
+                                
+
+
